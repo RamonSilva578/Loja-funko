@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.cabecalho {
+    width: 100%;
+    background-size:cover;
+    background-position:left;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../imagens-atualizadas/contatoheader.jpg);
+}
+.cabecalho nav img {
+    display: flex;
+    width: 150px;
+    margin-top: 1.4em;
+}
+.estamos-aqui {
+    display: flex;
+    width: 400px;
+    }
+    
+header section {
+        display: flex;
+        flex-grow: 1;
+        align-items: center;
+    }
+.fale-conosco {
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+}
+
+.fale-conosco h1 {
+    margin-top: 1.5em;
+    font-weight: 600;
+    font-size: 36px;
+    color: rgb(73, 70, 70);
+    border-bottom: 5px solid #fc3836;
+}
+
+.fale-conosco p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(73, 69, 69);
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 1.7em;
+    padding-bottom: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+form div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input {
+    border-radius: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 490px;
+    border: rgb(204, 202, 202) 1.5px solid;
+}
+
+form textarea {
+    border-radius: 14px;
+    border: rgb(204, 202, 202) 1.5px solid;
+    resize: none;
+    padding-top: 10px;
+    padding-bottom: 150px;
+    width: 490px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+::placeholder {
+    color: #cac9c9;
+    padding-left: 20px;}
+
+main {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+.botao-enviar {
+    font-weight: bolder;
+    font-size: 1.3em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom, #fe7467, #fc3836 );
+    border: 0;
+    color: #fff;
+    width: 990px;
+    cursor: pointer;
+   margin: 20px;
+}
+@media screen and (max-width: 800px) {
+    header {
+        background-image: url(../imagens-atualizadas/captainmarvelheader_Mobile.jpg);
+    }
+    .botao-enviar {
+        width: 100%;
+    }
+.banner-estamos-aqui {
+    display: none;
+}
+header nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.menu img {
+    padding-bottom: 20px;
+}
+}

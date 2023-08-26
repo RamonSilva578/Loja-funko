@@ -1,0 +1,36 @@
+
+.menu {
+    width: auto;
+    margin: 35px;
+}
+.menu li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    margin: 40px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.menu-ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 60px;
+    gap: 40px;
+}
+
+.menu-item a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+}

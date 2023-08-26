@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    padding-top: 1%;
+    padding-left: 1.5%;
+    z-index: 10;
+}
+.cabecalho img {
+    display: flex;
+}
+.botao-comprar {
+    position: flex;
+    font-weight: 600;
+    font-size: 20px;
+    padding-left: 2.4%;
+    padding-right: 2.4%;
+    padding-top: 1.3%;
+    padding-bottom: 1.3%;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom, #fe7467, #fc3836 );
+    border: 0;
+}
+.catalogo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.catalogo img {
+    width: 100%;}
+.fotos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 500px;
+    padding: 10px;
+    margin: 20px;
+
+}
+.catalogo-compra {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        color: rgb(78, 78, 78);
+        padding-left: 43.5%;
+        font-size: 35px;
+        text-decoration: underline;
+        text-decoration-color: #fe7467;
+        
+    }
+.preço {
+    font-style: italic;
+    font-weight: bold;
+}
+.banner-cap1 {
+position: absolute;
+width: 30%;
+display: flex;
+margin-top: 35%;
+margin-left: 50px;
+padding-left: 18%;
+}
+.banner-cap2 {
+    width: 100%;
+    position: static;
+}
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;
+    padding-top: 1%;
+    padding-left: 1.5%;
+    position: absolute;
+}
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+@media screen and (max-width: 800px) {
+    header nav {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .menu {
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .menu img {
+        padding-bottom: 20px;
+    }
+    }
